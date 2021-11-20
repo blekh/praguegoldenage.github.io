@@ -1,0 +1,277 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Spartan', sans-serif;
+
+}
+.obrazky  {
+display: inline-flex;
+position: relative;
+flex-wrap: wrap;
+align-items:stretch;
+}
+.obrazky img {
+  width:506px;
+}
+
+@media only screen and (max-width: 800px){
+  .obrazky img{
+    size: 50%;
+    margin: 0px;
+      }
+  .obrazky  {
+    display:inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items:center;
+    
+  }
+  .info{width: 150%;}
+  a {
+    font-size: 60%;
+    padding: 15px 5px;
+
+  }
+  li {
+    width: 50%;
+    width: 250%;
+    display: flex;
+    align-items:flex-start  
+  }
+  ul {
+    flex-wrap: nowrap;
+ 
+  }
+}
+nav {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+    background: linear-gradient(81deg, rgba(126,160,145,1) 0%, rgba(225,190,183,0.6141807064622724) 100%);
+    display: inline-flex;
+    padding: 2px;
+    margin: -4px;
+  }
+
+  
+  li {
+    float:left;
+    border-right: 1px solid #fffbf0;
+    
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 100px;
+    text-decoration: none;
+    display: block;
+    font-size: 145%;
+    font-weight: bold;
+    
+  }
+ 
+   a:hover {
+    text-decoration: underline rgb(0, 0, 0);
+  }
+  .info {
+    display:inline-block;
+    color: black;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 25px;
+    font-weight: bold;
+  }
+  .obrazky-hotelu {
+    display: flex;
+    gap: 15px;
+    margin-left: 250px;
+  }
+  .trznice {
+    width: 500px;
+    box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+    border-radius: 4px;
+    float: right;
+  }
+  .most {
+    width: 450px;
+    box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+    border-radius: 4px;
+    float: left;
+  }
+  .orloj {
+    margin-bottom: 10px;
+    width: 450px;
+    box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+    border-radius: 4px;
+  }
+  .hrad {
+    width: 450px;
+    box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+    border-radius: 4px;
+    
+  }
+  .obrazky-hotelu img {
+    width: 450px;
+    box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+    border-radius: 4px;
+  }
+ 
+
+.flexbox {
+  display: flex;
+  padding: 25px;
+  padding-left: 20px;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.kontakt {
+  padding-left: 100px;
+  flex-shrink: inherit;
+  
+}
+.pokoj img {
+  width: 100%;
+  padding: 0;
+  
+}
+.pokoje {
+  margin-top: 55px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+  align-content:space-around;
+  gap: 50px 7px;
+
+}
+.pokoj {
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 6px 10px 26px 5px rgb(116,116,116,0.36);
+  
+  
+}
+.nadpis {
+  background: linear-gradient(81deg, rgba(126,160,145,1) 0%, rgba(225,190,183,0.6141807064622724) 100%); 
+  width: 100%;
+  height: 55px;
+  margin: 0;
+  text-align: center;
+  font-size: 140%;
+  color: rgba(0, 0, 0, 0.795);
+  border-radius: 1px;
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(82, 75, 75);
+
+}
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+  text-align: center;
+  position: relative;
+}
+table th, td {
+  border: 1px solid rgba(119, 116, 116, 0.363);
+  border-collapse: collapse;
+
+}
+th, td {
+  padding: 15px;
+}
+.rez {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+ 
+  form {
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow:  6px 10px 26px 5px rgb(116,116,116,0.36);
+    width: 700px;
+    margin-left:400px;
+    margin-top: 25px;
+    background-color: rgba(146, 139, 139, 0.123);
+  }
+  label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+  }
+    
+  
+  input {
+    margin-bottom: 18px;
+    border: solid 1px ;
+    border-radius: 4px;
+    height: 25px;
+    display:flex;
+    font-size: 15px;
+  
+  }
+   
+  select {
+    display: flex;
+    width: 145px;
+    height: 28px;
+    margin-bottom: 15px;
+    border: solid 1px ;
+    border-radius: 4px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    
+  }
+  option {
+    text-align: left;
+    font-weight: bold;
+    height: 25px;
+  }
+  
+  input:focus {
+    background-color: #dd474928;
+  }
+input[type="submit"] {
+  background-color: #dd4749;
+  cursor: pointer;
+  font-size: 35px;
+  padding-top: 35px ;
+  padding-bottom: 70px;
+  text-align: center;
+  display: inline;
+  width: 100%;
+  font-family:'Spartan', sans-serif;
+  font-weight: bold;
+  border: none;
+}
+  
+
+input[type="submit"]:hover{
+  background-color: #e67577;
+  color: rgb(82, 77, 77);
+}
+
+footer {
+  margin-top: 30px;
+  padding: 25px;
+  background: linear-gradient(81deg, rgba(126,160,145,1) 0%, rgba(225,190,183,0.6141807064622724) 100%);
+  text-align: right;
+  font-weight: bold;
+  width: max-content;
+}
+
